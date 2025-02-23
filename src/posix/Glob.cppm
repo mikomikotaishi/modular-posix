@@ -21,6 +21,8 @@ export namespace Posix {
     using Stat = ::stat;
     using Stat64 = ::stat64;
 
+    using GlobT = ::glob_t;
+
     using ::glob;
     using ::globfree;
     using ::glob64;
