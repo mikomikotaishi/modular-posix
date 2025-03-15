@@ -16,13 +16,11 @@ export module posix.sys.IOCtl;
 /**
  * @brief Wrapper namespace for Unix POSIX operations.
  */
-export namespace Posix {
+export namespace Posix::System {
     #ifdef __unix__
-    namespace System {
-        using ::ioctl;
+    using ::ioctl;
 
-        using WinSize = ::winsize;
-        using TermIO = ::termio;
-    }
+    using WinSize = ::winsize;
+    using TermIO = ::termio;
     #endif
 }

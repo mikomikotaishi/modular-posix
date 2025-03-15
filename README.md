@@ -27,7 +27,7 @@ import posix;
 
 int main() {
     try {
-        Posix::GlobT globResult;
+        Posix::Glob_t globResult;
         int ret = Posix::glob("*.cpp", 0, nullptr, &globResult);
         if (ret != 0)
             throw std::runtime_error(std::format("glob() failed with return value {}", ret));

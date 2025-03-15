@@ -21,7 +21,10 @@ export namespace Posix {
     using Stat = ::stat;
     using Stat64 = ::stat64;
 
-    using GlobT = ::glob_t;
+    using    using ::ioctl;
+
+    using WinSize = ::winsize;
+    using TermIO = ::termio; Glob_t = ::glob_t;
 
     using ::glob;
     using ::globfree;

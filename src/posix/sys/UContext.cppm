@@ -18,6 +18,6 @@ export module posix.sys.UContext;
  */
 export namespace Posix::System {
     #ifdef __unix__
-    using UContextT = ::ucontext_t;
+    using UContext_t = ::ucontext_t;
     #endif
 }
