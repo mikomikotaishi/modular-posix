@@ -5,6 +5,8 @@ A modular C++ wrapper for the POSIX C library functions. Macros not included cur
 
 [![GPLv3](https://img.shields.io/badge/license-GPLv3-green)](#)
 
+Note: this library will probably be deprecated due to being moved into a C++ standard library refactoring for modules/namespaces.
+
 ## Build:
 Requires C++23, and a build system such as CMake (minimum version 3.28) or XMake. 
 
