@@ -1,4 +1,6 @@
-# openJuice
+# modular-posix
+
+> WARNING: This library is now deprecated and archived. Please see [https://github.com/mikomikotaishi/stdlib here] for the successor project.
 
 ## Overview:
 A modular C++ wrapper for the POSIX C library functions. Macros not included currently.
